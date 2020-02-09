@@ -2963,4 +2963,11 @@ function showFilterz() {
 }
 
 
-
+$(document).ready(function() {
+    $("#demo").on("mouseenter", function() {
+       $("#myBtnContainer").hide();
+    });
+/*    $(".overlay").on("mouseleave", function() {
+       $(this).hide();  //or $('.overlay').hide()
+    });*/
+});
